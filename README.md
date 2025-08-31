@@ -122,6 +122,7 @@ int main(void)
     close(fd);
     return (0);
 }
+```
 > Those version of get_next_line are using static memory allocation so you don't have to free the string `line`.
 > Static memory variables are high settled in this version but in case you can check or change BUFFER_SIZE (size of buffer dedicated to `read()` function) and STATIC_SIZE (must sized for 4 max lines of your file).
 > ```
@@ -132,7 +133,7 @@ int main(void)
 > # ifndef STATIC_SIZE
 > #  define STATIC_SIZE 30000
 > # endif
-```
+> ```
 then compile & run:
 ```bash
 gcc main.c libftgetnextline.a -o my_program
