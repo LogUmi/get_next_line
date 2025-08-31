@@ -123,9 +123,10 @@ int main(void)
     return (0);
 }
 ```
-> Those version of get_next_line are using static memory allocation so you don't have to free the string `line`.
+> ⚠️ Those version of get_next_line are using static memory allocation so you don't have to free the string `line`.
+> 
 > Static memory variables are high settled in this version but in case you can check or change BUFFER_SIZE (size of buffer dedicated to `read()` function) and STATIC_SIZE (must sized for 4 max lines of your file).
-> ```
+> ```c
 > # ifndef BUFFER_SIZE
 > #  define BUFFER_SIZE 42
 > # endif
