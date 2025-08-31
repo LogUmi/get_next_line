@@ -157,7 +157,8 @@ Example output:
 ---
 
 ## 🚀 Roadmap
-This project is the original version that was evaluated at 42 and will remain in this state.  
+This project is the original version that was evaluated at 42 and will remain in this state. 
+A maintained implementation of this project continues to live on through **my libft**.
 
 ---
 
