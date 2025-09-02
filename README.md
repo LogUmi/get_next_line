@@ -96,7 +96,7 @@ or for the multiple fd version:
 ├── includes/           			# Header files (.h)
 ├── srcs/              				# Source code (.c)
 ├── fr.subject_get_next_line.pdf	# Project 42 subject
-├── licence.txt		    			# License MIT
+├── LICENSE.txt		    			# License MIT
 ├── Makefile
 ├── text.txt						#file used for example
 └── README.md
